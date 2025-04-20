@@ -168,7 +168,7 @@ int main(void) {
     // integer type that can hold the size in bytes of anything you can give to
     // sizeof.
     //
-    // size_t shows up a lot of different places where counts of thingns are
+    // size_t shows up a lot of different places where counts of things are
     // passed or returned. Think of it as a value that represents a count.
     //
     // Remember: it's the size in bytes of the type of the expression, not the

@@ -176,7 +176,7 @@ void times4(int a[5], int len) {
 // an array to a function, you're likely passing a pointer to the first element in the
 // array.
 //
-// But if the function has a pointer to the ata, it is able to manipulate that data!
+// But if the function has a pointer to the data, it is able to manipulate that data!
 // So changes that a function makes to an array will be visible back out in the caller.
 void doulbe_array(int *a, int len) {
     for (int i = 0; i < len; i++) {
