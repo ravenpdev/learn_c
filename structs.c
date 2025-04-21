@@ -1,6 +1,10 @@
 /* #include <stdbool.h> */
 #include <stdio.h>
 
+// Structs
+//
+// You can think of a struct as a class with only data members, and no methods.
+
 // The full type name is struct person. (Not just person - that wonn't work.)
 //
 // Struct is somewhat large and it's more expensive to copy that onto the stack than it is to just

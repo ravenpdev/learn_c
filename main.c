@@ -281,14 +281,12 @@ int main(void) {
         }
 
         // An empty for will run forever:
-        /* for(;;) { */
-        /*     printf("I will print this again and again and again\n"); */
-        /*     printf("for all eternity until the heat-death of the
-         * universe.\n");
-         */
+        for (;;) {
+            printf("I will print this again and again and again\n");
+            printf("for all eternity until the heat-death of the universe.\n");
 
-        /*     printf("Or until you hit CTRL-C.\n"); */
-        /* } */
+            printf("Or until you hit CTRL-C.\n");
+        }
     }
 
     // The switch statement
