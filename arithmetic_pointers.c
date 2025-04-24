@@ -37,8 +37,8 @@ struct animal {
 int compar(const void *elem1, const void *elem2) {
     // We know we're sorting struct animals, so let's make both
     // arguments pointers to struct animals
-    const struct animal *animal1  = elem1;
-    const struct animal *animal2  = elem2;
+    const struct animal *animal1 = elem1;
+    const struct animal *animal2 = elem2;
 
     if (animal1->leg_count > animal2->leg_count) {
         return 1;
@@ -119,7 +119,7 @@ int main(void) {
     //
     // Those are equivalent and can be used intechangeably!
     //
-    // The sepc is specific, as always, declaring (in C11)
+    // The spec is specific, as always, declaring (in C11)
     //
     // E1[E2] is identical to (*((E1) + (E2)))
     //
@@ -210,10 +210,10 @@ int main(void) {
 
     {
         struct animal a[4] = {
-            {.name="Dog", .leg_count=4},
-            {.name="Monkey", .leg_count=2},
-            {.name="Antnelope", .leg_count=4},
-            {.name="Snake", .leg_count=0},
+            {.name = "Dog", .leg_count = 4},
+            {.name = "Monkey", .leg_count = 2},
+            {.name = "Antnelope", .leg_count = 4},
+            {.name = "Snake", .leg_count = 0},
         };
 
         printf("size of animal: %zu\n", sizeof(struct animal));
